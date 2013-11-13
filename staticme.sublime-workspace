@@ -1,0 +1,317 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rou",
+				"routeAction"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"stat",
+				"staticme"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "controller.php",
+			"settings":
+			{
+				"buffer_size": 2204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"ls",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/saleh/workstation/ws/staticme/part_body.php",
+		"/home/saleh/workstation/ws/staticme/controller.php",
+		"/home/saleh/workstation/ws/staticme/part_view.php",
+		"/home/saleh/workstation/ws/staticme/part_menu.php",
+		"/home/saleh/workstation/ws/staticme/part_footer.php",
+		"/home/saleh/workstation/ws/staticme/index.htm",
+		"/home/saleh/workstation/ws/staticme/register.php",
+		"/home/saleh/workstation/ws/staticme/login.php",
+		"/home/saleh/workstation/ws/staticme/ip.php",
+		"/home/saleh/workstation/ws/staticme/index.php",
+		"/home/saleh/workstation/ws/staticme/home.php",
+		"/home/saleh/workstation/ws/staticme/controler.php",
+		"/home/saleh/workstation/ws/pr.htm",
+		"/home/saleh/workstation/ws/staticme/ip.htm",
+		"/home/saleh/workstation/ws/staticme/staticme.sublime-project",
+		"/home/saleh/workstation/Java/J01Helloworld/src/Hello.java",
+		"/etc/php5/apache2/php.ini",
+		"/home/saleh/.config/sublime-text-3/Packages/SublimeJavaCompiler/Preferences.sublime-settings",
+		"/home/saleh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/saleh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/saleh/.config/sublime-text-3/Packages/Java/JavaC.sublime-build",
+		"/home/saleh/bashscripts/sublime-javac",
+		"/home/saleh/bashscripts/cd",
+		"/home/saleh/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/etc/modprobe.d/alsa-base.conf",
+		"/tmp/alsa-info.txt.TRDisqhC0y",
+		"/home/saleh/bashscripts/sync-notes",
+		"/etc/bash_completion.d/bashscrpits",
+		"/home/saleh/bashscripts/create-shortcut",
+		"/home/saleh/bashscripts/create-shortcut.sh",
+		"/etc/bash_completion.d/git-prompt",
+		"/usr/lib/git-core/git-sh-prompt",
+		"/etc/bash_completion.d/apport_completion",
+		"/etc/bash_completion.d/apache2.2-common",
+		"/etc/bash_completion.d/juju",
+		"/home/saleh/bashscripts/backup.sh",
+		"/home/saleh/bashscripts/sync-notes.sh",
+		"/home/saleh/Desktop/dsb/notesSync.sh",
+		"/home/saleh/floobits/welcome.md",
+		"/home/saleh/bashscripts/extractNotes.sh",
+		"/home/saleh/bashscripts/sync-database.sh",
+		"/home/saleh/bashscripts/sync-workstation.sh",
+		"/home/saleh/bashscripts/sync-exclude-list",
+		"/home/saleh/.config/sublime-text-3/Packages/SideBarEnhancements/CHANGELOG"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"action",
+			"php_cli",
+			"\n",
+			"model",
+			"found"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"do",
+			"serial"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2043,
+								2043
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 153.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "staticme.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"ip.php"
+			],
+			[
+				"ip",
+				"ip.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,3 @@
+<div id="body">
+Your ID<div class="val"><?php echo $_SESSION['USER']['ID']; ?></div><br> Your IP <div class="val"><?php echo $_SESSION['USER']['IP']; ?></div><br> It was Recorded on <div class="val"><?php echo $_SESSION['USER']['IP_DATE']; ?></div><br>Remote Send URL<br><a href="<?php echo $this->URL; ?>?do=sendip&uid=2147483647" target="_blank">http://www.staticme.net/index.php?do=sendip&uID=2147483647</a>
+</div>
