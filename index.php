@@ -1,4 +1,4 @@
 <?php
 require_once('controller.php');
-$obj = new Staticme();
+$obj = new Staticloud();
 ?>
