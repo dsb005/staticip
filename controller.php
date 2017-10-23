@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Riyadh");
 class Staticloud {
 	const DB_USER = 'root';
 	const DB_PASS = 'root';
-	const DB_NAME = 'staticloud';
+	const DB_NAME = 'pr_staticloud';
 	public $URL;
 	function __construct(){
 		// Get URL
@@ -51,10 +51,7 @@ class Staticloud {
 
 	protected function dbConnect()
 	{
-		// if($_SERVER['REMOTE_ADDR'] == '127.0.0.1') 
-		// 	return new PDO('mysql:host=localhost;dbname='.self::DB_NAME,self::DB_USER,self::DB_PASS);
-		// else
-			return new PDO('mysql:unix_socket=/cloudsql/gcdc2013-scloud:scloud;dbname=staticloud;charset=utf8','root','');
+		return new PDO('mysql:host=localhost;dbname='.self::DB_NAME,self::DB_USER,self::DB_PASS);
 	}
 
 	protected function routeAction($action){
@@ -253,7 +250,7 @@ class Staticloud {
 			$res = $rs->prepare("SELECT * FROM devices where uID=:uID");
 			$dev = $res->execute(array(':uID'=>$_SESSION['USER']['ID']));
 		}
-		
+
 		if($res->rowCount() > 0)
 		{
 			while($row = $res->fetch(PDO::FETCH_ASSOC))
@@ -335,7 +332,7 @@ class Staticloud {
 
 	protected function view()
 	{
-		
+
 		$this->getDevices();
 		//if(!$_SESSION['DEVICES']) $this->navigate('device');
 		$this->loadTemplate();
