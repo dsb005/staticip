@@ -1,0 +1,2 @@
+# staticip
+your static ip
