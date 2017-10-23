@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Riyadh");
 class Staticloud {
 	const DB_USER = 'root';
 	const DB_PASS = 'root';
-	const DB_NAME = 'pr_staticloud';
+	const DB_NAME = 'pr_staticip';
 	public $URL;
 	function __construct(){
 		// Get URL
