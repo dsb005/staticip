@@ -5,9 +5,9 @@
 <form action="" method="post">
 <table align="center" width="420" cellpadding="0" cellspacing="0" border="0" id="login">
 	<tr>
-		<td class="corner" width="11" height="11" align="center" valign="top"><img src="/img/l_ctleft.png"></td>
-		<td height="11"><img class="spacer" src="/img/spacer.gif"></td>
-		<td class="corner" width="11" height="11" align="right" valign="top"><img src="/img/l_ctright.png"></td>
+		<td class="corner" width="11" height="11" align="center" valign="top"><img src="img/l_ctleft.png"></td>
+		<td height="11"><img class="spacer" src="img/spacer.gif"></td>
+		<td class="corner" width="11" height="11" align="right" valign="top"><img src="img/l_ctright.png"></td>
 		
 	</tr>
 	<tr>
@@ -40,9 +40,9 @@
 		<td class="lbg"></td>
 	</tr>
 	<tr>
-		<td class="cornerb" width="11" height="11" align="center" valign="bottom"><img class="b" src="/img/l_cbleft.png"></td>
-		<td><img class="spacer" src="/img/spacer.gif"></td>
-		<td class="cornerb" width="11" height="11" align="center" valign="bottom"><img class="b" src="/img/l_cbright.png"></td>
+		<td class="cornerb" width="11" height="11" align="center" valign="bottom"><img class="b" src="img/l_cbleft.png"></td>
+		<td><img class="spacer" src="img/spacer.gif"></td>
+		<td class="cornerb" width="11" height="11" align="center" valign="bottom"><img class="b" src="img/l_cbright.png"></td>
 	</tr>
 </table>
 </form>

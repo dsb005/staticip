@@ -40,7 +40,7 @@
 }
 #login .lbg
 {
-	background-image: url('/img/l_lbg.png');
+	background-image: url('img/l_lbg.png');
 	background-repeat: repeat-y;
 	margin: 0;
 	padding:0;
@@ -103,18 +103,19 @@ a.mitem{
 	display:block;
 	width:204px;
 	height:41px;
-	background-image: url('/img/m_up.png');
+	background-image: url('img/m_up.png');
 	background-repeat: no-repeat;
 	/*border:solid 1px #000;*/
 	text-align: center;
 	vertical-align: middle;
 	text-decoration: none;
 }
-a:hover.mitem, a.s_mitem{
+a.mitem:hover{
 	display:block;
+	color: #fff;
 	width:204px;
 	height:41px;
-	background-image: url('/img/m_over.png');
+	background-image: url('img/m_over.png');
 	background-repeat: no-repeat;
 	text-decoration: none;
 }
@@ -123,7 +124,7 @@ a:hover.mitem, a.s_mitem{
 	padding-top: 8px;
 	font-weight: bold;
 	font-size: 14px;
-	color: #FFF;
+	color: #000;
 	text-decoration: none;
 	text-align: center;
 }

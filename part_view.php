@@ -28,7 +28,7 @@
 				<tr>
 					<td class="subtitle">URL</td>
 					<td colspan="3">
-					<a href="<?php echo $this->URL; ?>?do=help&did=<?php echo $device['dID'] ?>" target="_blank"><img src="/img/location.png"></a>
+					<a href="<?php echo $this->URL; ?>?do=help&did=<?php echo $device['dID'] ?>" target="_blank"><img src="img/location.png"></a>
 					</td>
 				</tr>
 				<tr>
@@ -40,9 +40,9 @@
 		</td>
 	</tr>
 	<tr>
-		<td class="vcorner" width="12" height="12" style="font-size:1px;"><img src="/img/v_bleft.png"></td>
-		<td height="12" style="background-color:#e7e8e9; font-size:1px;"><img class="vspacer" src="/img/spacer.gif"></td>
-		<td class="vcorner" width="12" height="12" style="font-size:1px;"><img src="/img/v_bright.png"></td>
+		<td class="vcorner" width="12" height="12" style="font-size:1px;"><img src="img/v_bleft.png"></td>
+		<td height="12" style="background-color:#e7e8e9; font-size:1px;"><img class="vspacer" src="img/spacer.gif"></td>
+		<td class="vcorner" width="12" height="12" style="font-size:1px;"><img src="img/v_bright.png"></td>
 	</tr>
 </table>
 </div>

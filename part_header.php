@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" typ="text/css" href="css/main.css">
-<title>Welcome to Staticloud</title>
+<title>Welcome to Staticip</title>
 </head>
 <body>
 <div id="container">

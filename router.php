@@ -36,5 +36,4 @@ else {
 // currently provides).
 $_SERVER['SCRIPT_NAME'] = '/' . $file;
 require $file;
-
 ?>

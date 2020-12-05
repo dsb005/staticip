@@ -1,6 +1,6 @@
 <?php
-date_default_timezone_set("Asia/Riyadh");
-class Staticloud {
+//ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+class Staticip {
 	const DB_USER = 'root';
 	const DB_PASS = 'root';
 	const DB_NAME = 'pr_staticip';
@@ -51,7 +51,9 @@ class Staticloud {
 
 	protected function dbConnect()
 	{
-		return new PDO('mysql:host=localhost;dbname='.self::DB_NAME,self::DB_USER,self::DB_PASS);
+		$con = new PDO('mysql:host=localhost;dbname='.self::DB_NAME,self::DB_USER,self::DB_PASS);
+		$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		return $con;
 	}
 
 	protected function routeAction($action){
@@ -161,7 +163,7 @@ class Staticloud {
 
 	protected function getDeviceTypes($id = NULL)
 	{
-		$dtypes = array('pc','mobile','tablet','server','other');
+		$dtypes = array('pc','laptop','mobile','server');
 		if($id != NULL)
 			return $dtypes[$id];
 		else
@@ -367,10 +369,10 @@ class Staticloud {
 			}
 		}
 
-		$today = date('Y-m-d H:i:s',time());
-		$rs = $this->dbConnect();
-		$ping = $rs->prepare("INSERT INTO iplog (uID,iIp,dID,iDate) VALUES (:uID,:iIp,:dID,:iDate)");
-		$result = $ping->execute(array(':uID'=>$uID,':iIp'=>$_SERVER['REMOTE_ADDR'],':dID'=>$_GET['did'],':iDate'=>$today));
+		$today 	= date('Y-m-d H:i:s',time());
+		$rs 	= $this->dbConnect();
+		$ping 	= $rs->prepare("INSERT INTO iplog (iIp,iPort,dID,iDate) VALUES (:iIp,:iPort,:dID,:iDate)");
+		$result = $ping->execute(array(':iIp'=>$_SERVER['REMOTE_ADDR'],':iPort'=>$_GET['port'],':dID'=>$_GET['did'],':iDate'=>$today));
 		if($result)
 			echo 1;
 		else
