@@ -2,9 +2,6 @@
 //ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 require('config.php');
 class Staticip extends Config {
-	const DB_USER = 'root';
-	const DB_PASS = 'root';
-	const DB_NAME = 'pr_staticip';
 	public $URL;
 	function __construct(){
 		// Get URL
