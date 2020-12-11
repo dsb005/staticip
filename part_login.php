@@ -13,7 +13,7 @@
 	<tr>
 		<td></td>
 		<td>
-			<table width="250" align="center" class="dtable" align="center" border="0" cellpadding="0" cellspacing="0">
+			<table width="250" align="center" class="dtable" align="center" border="0" cellpadding="2" cellspacing="0">
 				<?php if($_GET['do'] == 'login'){ ?>
 				<tr>
 					<td align="left" class="li_title">Log in</td>
@@ -26,14 +26,14 @@
 				</tr>
 				<?php } ?>
 				<tr>
-					<td colspan="2"><input type="text" name="email" class="li_tinput"></td>
+					<td colspan="2"><input type="text" name="email" class="form-control li_tinput"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="password" name="password" class="li_tinput"></td>
+					<td colspan="2"><input type="password" name="password" class="form-control li_tinput"></td>
 				</tr>
 				<tr>
 					<td align="left" class="li_subtitle"><a href="#">Forgot your password</a></td>
-					<td align="right"><input class="li_btn" name="do" type="submit" value="<?php echo $_GET['do']; ?>"></td>
+					<td align="right"><input class="btn btn-light li_btn" name="do" type="submit" value="<?php echo $_GET['page']; ?>"></td>
 				</tr>
 			</table>
 		</td>

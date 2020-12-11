@@ -14,13 +14,13 @@
 	<tr>
 		<td></td>
 		<td>
-			<table class="dtable" align="center" border="0" cellpadding="0" cellspacing="0">
+			<table class="dtable" align="center" border="0" cellpadding="2" cellspacing="0">
 				<tr>
 					<td align="left" class="li_title">Device Type</td>
 				</tr>
 				<tr>
 					<td>
-						<select name="dtype" class="li_tinput">
+						<select name="dtype" class="form-control li_tinput">
 							<?php foreach($_SESSION['DTYPES'] as $key=>$dtype) { ?>
 							<option value="<?php echo $key; ?>" <?php if($_SESSION['DEVICES'][0]['dTypeID'] == $key) echo 'selected="selected"'; ?>><?php echo $dtype; ?></option>
 							<?php } ?>
@@ -31,10 +31,10 @@
 					<td align="left" class="li_title">Device Name</td>
 				</tr>
 				<tr>
-					<td><input type="text" name="dname" class="li_tinput" value="<?php echo $_SESSION['DEVICES'][0]['dName']; ?>"></td>
+					<td><input type="text" name="dname" class="form-control li_tinput" value="<?php echo $_SESSION['DEVICES'][0]['dName']; ?>"></td>
 				</tr>
 				<tr>
-					<td align="right"><input name="submit" type="submit" value="<?php echo $_SESSION['action']; ?>" style="text-transform: uppercase;" class="li_btn"></td>
+					<td align="right"><input name="submit" type="submit" value="<?php echo $_SESSION['action']; ?>" style="text-transform: uppercase;" class="btn btn-light li_btn"></td>
 				</tr>
 			</table>
 		</td>

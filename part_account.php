@@ -13,21 +13,21 @@
 	<tr>
 		<td></td>
 		<td>
-			<table width="250" align="center" class="dtable" align="center" border="0" cellpadding="0" cellspacing="0">
+			<table width="250" align="center" class="dtable" align="center" border="0" cellpadding="2" cellspacing="0">
 				<tr>
 					<td align="left" class="li_title">Update Account Info</td>
 				</tr>
 				<tr>
-					<td><input type="text" name="name" class="li_tinput" value="<?php echo $_SESSION['USER']['NAME']; ?>"></td>
+					<td><input type="text" name="name" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['NAME']; ?>"></td>
 				</tr>
 				<tr>
-					<td><input type="text" name="email" class="li_tinput" value="<?php echo $_SESSION['USER']['EMAIL']; ?>"></td>
+					<td><input type="text" name="email" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['EMAIL']; ?>"></td>
 				</tr>
 				<tr>
-					<td><input type="password" name="password" class="li_tinput"></td>
+					<td><input type="password" name="password" class="form-control li_tinput"></td>
 				</tr>
 				<tr>
-					<td align="right"><input class="li_btn" name="do" type="submit" value="UPDATE"></td>
+					<td align="right"><input class="btn btn-light li_btn" name="do" type="submit" value="UPDATE"></td>
 				</tr>
 			</table>
 		</td>

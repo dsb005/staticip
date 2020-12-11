@@ -21,8 +21,8 @@ class Staticip {
 		}
 		if(!isset($_SESSION)) session_start();
 		// Run Controller
-		if((isset($_GET['do']) && isset($_SESSION['USER'])) || $_GET['do'] == 'register' || $_GET['do'] == 'login' || $_GET['do'] == 'sendip')
-			$this->routeAction($_GET['do']);
+		if((isset($_GET['page']) && isset($_SESSION['USER'])) || $_GET['page'] == 'register' || $_GET['page'] == 'login' || $_GET['page'] == 'sendip')
+			$this->routeAction($_GET['page']);
 		else
 			$this->navigate('login');
 	}
@@ -39,7 +39,7 @@ class Staticip {
 
 	function navigate($target = NULL){
 		if($target)
-			header("Location: index.php?do=".$target);
+			header("Location: index.php?page=".$target);
 		else
 			header("Location: index.php");
 	}
