@@ -14,22 +14,22 @@
 		<td></td>
 		<td>
 			<table width="250" align="center" class="dtable" align="center" border="0" cellpadding="2" cellspacing="0">
-				<?php if($_GET['do'] == 'login'){ ?>
+				<?php if($_GET['page'] == 'login'){ ?>
 				<tr>
-					<td align="left" class="li_title">Log in</td>
-					<td align="right" class="li_title">(or <span class="li_subtitle"><a href="index.php?do=register">Create and Account</a></span>)</td>
+					<td align="left" class="li_title">LOGIN</td>
+					<td align="right" class="li_title"><a href="index.php?page=register" class="btn btn-danger font-weight-bold">NEW ACCOUNT</a></td>
 				</tr>
-				<?php } elseif($_GET['do'] == 'register'){ ?>
+				<?php } elseif($_GET['page'] == 'register'){ ?>
 				<tr>
 					<td align="left" class="li_title">New Account</td>
-					<td align="right" class="li_title">(or <span class="li_subtitle"><a href="index.php?do=login">Log in</a></span>)</td>
+					<td align="right" class="li_title"><a href="index.php?page=login" class="btn btn-success font-weight-bold">LOGIN</a></td>
 				</tr>
 				<?php } ?>
 				<tr>
-					<td colspan="2"><input type="text" name="email" class="form-control li_tinput"></td>
+					<td colspan="2"><input type="email" name="email" placeholder="Email" class="form-control li_tinput" required="required"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="password" name="password" class="form-control li_tinput"></td>
+					<td colspan="2"><input type="password" name="password" placeholder="Password" class="form-control li_tinput" required="required"></td>
 				</tr>
 				<tr>
 					<td align="left" class="li_subtitle"><a href="#">Forgot your password</a></td>

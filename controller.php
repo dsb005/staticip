@@ -62,10 +62,10 @@ class Staticip extends Config {
 
 			case 'home': 		$this->home(); break;
 			case 'sendip': 		$this->sendip(); break;
-			case 'view': 		$this->view(); break;
+			case 'list': 		$this->list(); break;
 			case 'account':		$this->account(); break;
 			case 'device':		$this->device(); break;
-			case 'help':		$this->help(); break;
+			case 'track':		$this->track(); break;
 		}
 	}
 
@@ -82,7 +82,7 @@ class Staticip extends Config {
 				$_SESSION['USER']['ID'] = $row['uID'];
 				$_SESSION['USER']['NAME'] = $row['uName'];
 				$_SESSION['USER']['EMAIL'] = $row['uEmail'];
-				$this->view();
+				$this->list();
 				return false;
 			}
 			else
@@ -183,7 +183,7 @@ class Staticip extends Config {
 				{
 					$this->getDevices();
 					$this->loadTemplate();
-					$this->loadPart("view");
+					$this->loadPart("list");
 				}
 				else
 				{
@@ -202,7 +202,7 @@ class Staticip extends Config {
 					$_SESSION['ERRORMSG'] = 'Your Device was Added Sucessfully...';
 					$this->getDevices();
 					$this->loadTemplate();
-					$this->loadPart("view");
+					$this->loadPart("list");
 				}
 				else{
 					$_SESSION['action'] = 'add';
@@ -217,7 +217,7 @@ class Staticip extends Config {
 				{
 					$this->getDevices();
 					$this->loadTemplate();
-					$this->loadPart("view");
+					$this->loadPart("list");
 				}
 				else
 				{
@@ -330,21 +330,21 @@ class Staticip extends Config {
 			return false;
 	}
 
-	protected function view()
+	protected function list()
 	{
 
 		$this->getDevices();
 		//if(!$_SESSION['DEVICES']) $this->navigate('device');
 		$this->loadTemplate();
-		$this->loadPart('view');
+		$this->loadPart('list');
 	}
 
-	protected function help()
+	protected function track()
 	{
 		$this->loadPart('header');
 		$this->loadPart('menu');
 		$this->getDevices($_GET['did']);
-		$this->loadPart('help');
+		$this->loadPart('track');
 		$this->loadPart('footer');
 	}
 

@@ -10,12 +10,17 @@
 				</tr>
 				<tr>
 					<td class="l_title">URL</td>
-					<td class="l_url"><?php echo $this->URL; ?>?do=sendip&did=<?php echo $_SESSION['DEVICES'][0]['dID']; ?>&port=80</td>
+					<td class="l_url"><a href="<?php echo $this->URL; ?>?page=sendip&did=<?php echo $_SESSION['DEVICES'][0]['dID']; ?>&port=80" target="_blank"><?php echo $this->URL; ?>?page=sendip&did=<?php echo $_SESSION['DEVICES'][0]['dID']; ?>&port=80</a></td>
 				</tr>
 			</table>
 			<?php } ?>
-			<h5 align="center">Your Ready to Track this Device IP, Just Copy this URL Above, and Use Any Tool to Schedule a Request to update your device ip with your account, below are some recomended tools and guides that we selected for you... Enjoy (:</h5>
+			<p>
+			<h6 align="center">Your Ready to Track this Device IP, Just Copy this URL Above, and Use Any Tool to Schedule a Request to update your device ip with your account, below are some recomended tools and guides that we selected for you... Enjoy (:</h6>
+
 			<table class="dtable" align="center" border="0" cellpadding="2" cellspacing="2">
+				<tr>
+					<td colspan="9"><h5><b>CRON TOOLS</b></h5></td>
+				</tr>
 				<tr>
 					<td><a href="https://chrome.google.com/webstore/detail/crontabs/abhmbcedbojnghofcfmnageegmkmpkac" target="_blank"><img src="img/icons/chrome.png"></a></td>
 					<td><a href="https://addons.mozilla.org/en-US/firefox/addon/cronzilla/?src=search" target="_blank"><img src="img/icons/firefox.png"></a></td>

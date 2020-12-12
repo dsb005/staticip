@@ -64,7 +64,7 @@
 }
 
 .li_title{
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: bold;
 	color: #FFF;
 }
@@ -153,7 +153,7 @@ a.mitem:hover{
 }
 
 .dtable2{
-	width:550px;
+	width:100%;
 	font-size:12px;
 }
 
@@ -182,13 +182,14 @@ a.mitem:hover{
 }
 .l_title{
 	background-color: #107ce2;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
+	margin-left: 5px;
 	color: #FFF;
 }
 .l_url, .l_url a, .l_url a:hover, .l_url a:active{
 	background-color: #FFF;
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #000;
 }
