@@ -18,13 +18,13 @@
 					<td align="left" class="li_title">Update Account Info</td>
 				</tr>
 				<tr>
-					<td><input type="text" name="name" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['NAME']; ?>"></td>
+					<td><input type="text" name="name" placeholder="Name" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['NAME']; ?>"></td>
 				</tr>
 				<tr>
-					<td><input type="text" name="email" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['EMAIL']; ?>"></td>
+					<td><input type="email" name="email" placeholder="Email" class="form-control li_tinput" value="<?php echo $_SESSION['USER']['EMAIL']; ?>"></td>
 				</tr>
 				<tr>
-					<td><input type="password" name="password" class="form-control li_tinput"></td>
+					<td><input type="password" name="password" placeholder="Password" class="form-control li_tinput"></td>
 				</tr>
 				<tr>
 					<td align="right"><input class="btn btn-light li_btn" name="do" type="submit" value="UPDATE"></td>
